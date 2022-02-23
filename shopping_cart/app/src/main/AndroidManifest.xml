@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="ipbeja.pdm1.shopping_cart">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Shopping_cart">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.ProductDetailsActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

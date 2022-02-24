@@ -1,11 +1,10 @@
 {
       "Users": [
-  {
       {
-      "id": 1,
-      "username": "ricardo",
-      "password": "riczhou"
-    }
+            "id": 1,
+            "username": "ricardo",
+            "password": "riczhou"
+      }
     ],
     "Products" : [
             {

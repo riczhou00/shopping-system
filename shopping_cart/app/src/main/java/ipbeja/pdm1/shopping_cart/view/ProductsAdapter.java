@@ -37,9 +37,10 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Product product = this.productList.get(position);
         holder.txtName.setText(product.getName());
-
+        holder.txtPrice.setText( product.getPrice()+"€");
         holder.txtIsAvailable.setText(product.getIsAvailable());
         Glide.with(this.context).load(product.getImageURL()).into(holder.imageView);
+
         holder.root.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,7 +70,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
             super(itemView);
             this.root = itemView;
             this.txtName = this.root.findViewById(R.id.txtName);
-
+            this.txtPrice = this.root.findViewById(R.id.txtPrice);
             this.txtIsAvailable = this.root.findViewById(R.id.txtIsAvailable);
             this.imageView = this.root.findViewById(R.id.imageView);
         }

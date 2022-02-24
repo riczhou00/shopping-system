@@ -26,4 +26,6 @@ public class MainActivityViewModel extends AndroidViewModel {
     public void updateList() {
         this.repository.updateList();
     }
+
+   
 }

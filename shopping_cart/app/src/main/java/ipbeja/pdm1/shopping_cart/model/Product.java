@@ -9,12 +9,12 @@ public class Product {
     @PrimaryKey
     private long id;
     private String name;
-    private String price;
+    private float price;
     private String isAvailable;
     private String imageURL;
     private String description;
 
-    public Product(long id, String name, String price, String isAvailable, String imageURL, String description) {
+    public Product(long id, String name, float price, String isAvailable, String imageURL, String description) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -39,11 +39,11 @@ public class Product {
         this.name = name;
     }
 
-    public String getPrice() {
+    public float getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 

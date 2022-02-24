@@ -1,60 +1,66 @@
 {
-    
+      "Users": [
+      {
+            "id": 1,
+            "username": "ricardo",
+            "password": "riczhou"
+      }
+    ],
     "Products" : [
             {
                 "id":1,
                 "name":"iMac 21",
-                "price":"1330",
-                "isAvailable":"true",
+                "price":"1330.79",
+                "isAvailable":"Available",
                 "imageURL":"https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP759/Imac21inch4k2017.png"
             },
             {
                 "id":2,
                 "name":"iPad Pro",
-                "price":"1299",
-                "isAvailable":"true",
+                "price":"1299.99",
+                "isAvailable":"Available",
                 "imageURL":"https://www.apple.com/v/ipad-pro/ah/images/meta/ipad-pro_specs__bnuyb5pohkly_og.png?202112130312"
             },
             {
                 "id":3,
                 "name":"iPhone 11",
-                "price":"579",
-                "isAvailable":"true",
+                "price":"579.90",
+                "isAvailable":"Available",
                 "imageURL":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone11-green-select-2019_GEO_EMEA?wid=834&hei=1000&fmt=jpeg&qlt=95&.v=1567021766404"
             },
             {
                 "id":4,
                 "name":"iPhone 11 Pro",
-                "price":"599",
-                "isAvailable":"true",
+                "price":"599.49",
+                "isAvailable":"Available",
                 "imageURL":"https://www.mytrendyphone.pt/images/iPhone-11-Pro-64GB-Space-Grey-0190199388765-16092019-01-p.jpg"
             },
             {
                 "id":5,
                 "name":"iPhone 11 Pro Max",
-                "price":"999",
-                "isAvailable":"true",
+                "price":"999.90",
+                "isAvailable":"Available",
                 "imageURL":"https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-11-pro-max-space-gray.png"
             },
             {
                 "id":6,
                 "name":"iPhone SE",
-                "price":"480",
-                "isAvailable":"true",
+                "price":"480.79",
+                "isAvailable":"Available",
                 "imageURL":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-se-red-select-2020_GEO_EMEA?wid=834&hei=1000&fmt=jpeg&qlt=95&.v=1586574260374"
             },
             {
                 "id":7,
                 "name":"MacBook Air",
-                "price":"1255",
-                "isAvailable":"true",
+                "price":"1255.50",
+                "isAvailable":"Available",
                 "imageURL":"https://www.techinn.com/f/13787/137870845/apple-computador-portatil-macbook-air-13-m1-8gb-256gb-ssd.jpg"
             },
             {
                 "id":8,
                 "name":"MacBook Pro 16",
-                "price":"2899",
-                "isAvailable":"true",
+                "price":"2899.99",
+                "isAvailable":"Available",
                 "imageURL":"https://www.notebookcheck.info/uploads/tx_nbc2/Bildschirmfoto_2021-06-25_um_10.31.16.png"
             }
     ],
@@ -62,63 +68,64 @@
   {
       "id":1,
       "name":"iMac 21",
-      "price":"1330",
-      "isAvailable":"true",
+      "price":"1330.79",
+      "isAvailable":"Available",
       "imageURL":"https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP759/Imac21inch4k2017.png",
       "description": "APPLE IMAC 21,5″ – PROCESSADOR DUAL-CORE A 2,3 GHZ (TURBO BOOST ATÉ 3,6 GHZ).Tudo em um. Para tudo. O iMac é perfeito para dar vida a todas as suas ideias. Tem um design espetacular, é incrivelmente intuitivo e está repleto de poderosas ferramentas para levar a sua imaginação mais longe."
     },
      {
          "id":2,
          "name":"iPad Pro",
-         "price":"1299",
+         "price":"1299.99",
+         "isAvailable":"Available",
          "imageURL":"https://www.apple.com/v/ipad-pro/ah/images/meta/ipad-pro_specs__bnuyb5pohkly_og.png?202112130312",
          "description": "O iPad abriu todo um mundo de experiências incríveis, construindo conosco uma relação simples e extraordinária. Agora com uma tela Retina de 12,9 polegadas, um PROCESSADOR quase duas vezes mais rápida que a do iPad Air 2 e uma tecnologia Multi-Touch mais avançada."
     },
      {
         "id":3,
         "name":"iPhone 11",
-        "price":"579",
-        "isAvailable":"true",
+        "price":"579.90",
+        "isAvailable":"Available",
         "imageURL":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone11-green-select-2019_GEO_EMEA?wid=834&hei=1000&fmt=jpeg&qlt=95&.v=1567021766404",
         "description": "O iPhone 11 chegou. Com um sistema de câmara dupla, ultra grande angular e grande angular de 12 MP com modo Noite, Ecrã 6,1 polegadas e Ecrã Liquid Retina HD e equipado com o novo processador A13 Bionic com Neural Engine."
     },
      {
         "id":4,
         "name":"iPhone 11 Pro",
-        "price":"599",
-        "isAvailable":"true",
+        "price":"599.49",
+        "isAvailable":"Available",
         "imageURL":"https://www.mytrendyphone.pt/images/iPhone-11-Pro-64GB-Space-Grey-0190199388765-16092019-01-p.jpg",
         "description": "Com o iPhone 11 Pro pode passar da câmara Teleobjetiva para a Ultra grande angular para alcançar um área de visão quatro vezes maior. Os vídeos feitos com o iPhone 11 Pro são impressionantes: realistas, mais nítidos e com movimento mais fluido."
     },
      {
         "id":5,
         "name":"iPhone 11 Pro Max",
-        "price":"999",
-        "isAvailable":"true",
+        "price":"999.90",
+        "isAvailable":"Available",
         "imageURL":"https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-11-pro-max-space-gray.png",
         "description": "Um sistema de câmara tripla visionário que permite fazer muito mais, com toda a simplicidade. Um aumento considerável da autonomia. E um processador incrível que leva mais longe a aprendizagem automática. "
     },
      {
         "id":6,
         "name":"iPhone SE",
-        "price":"480",
-        "isAvailable":"true",
+        "price":"480.79",
+        "isAvailable":"Available",
         "imageURL":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-se-red-select-2020_GEO_EMEA?wid=834&hei=1000&fmt=jpeg&qlt=95&.v=1586574260374",
         "description": "O iPhone SE (2020) vem com o processador mais potente, o tamanho mais popular e a um preço mais acessível. Espetacular ecrã Retina HD de 4.7 polegadas, estrutura em vidro resistente e alumínio. Com o mesmo processador do iPhone 11 Pro, o A13 Bionic é o mais rápido de sempre em um smartphone. Suave e rápido."
     },
      {
         "id":7,
         "name":"MacBook Air",
-        "price":"1255",
-        "isAvailable":"true",
+        "price":"1255.50",
+        "isAvailable":"Available",
         "imageURL":"https://www.techinn.com/f/13787/137870845/apple-computador-portatil-macbook-air-13-m1-8gb-256gb-ssd.jpg",
         "description": "A potência do processador M1 da Apple revoluciona por completo o nosso portátil mais fino e leve. Velocidades da CPU até 3,5 vezes mais rápidas. Velocidades da GPU até 5 vezes mais rápidas. O nosso Neural Engine mais avançado de sempre, para aprendizagem automática até 9 vezes mais rápida. A maior autonomia de sempre num MacBook Air. E um design silencioso, sem ventoinha."
     },
         {
         "id":8,
         "name":"MacBook Pro 16",
-        "price":"2899",
-        "isAvailable":"true",
+        "price":"2899.99",
+        "isAvailable":"Available",
         "imageURL":"https://www.notebookcheck.info/uploads/tx_nbc2/Bildschirmfoto_2021-06-25_um_10.31.16.png",
         "description": "O novo Apple MacBook Pro é, de longe, o portátil mais potente que alguma vez foi criado pela Apple. Foi concebido para quem desafia os limites e para inspirar os criadores. Com um envolvente ecrã Retina de 16 polegadas, processadores superrápidos, placas gráficas de última geração, a maior autonomia de sempre num MacBook Pro, um novo teclado Magic Keyboard e grande capacidade de armazenamento, é o portátil mais avançado para os profissionais mais exigentes."
     } 

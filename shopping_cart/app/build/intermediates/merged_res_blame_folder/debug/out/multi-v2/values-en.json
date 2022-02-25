@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "3,10,8,9,11,12,5,7,6,13,4,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "109,499,366,428,562,603,199,301,244,646,158,57",
+                        "endColumns": "47,61,60,69,39,41,43,63,55,58,39,50",
+                        "endOffsets": "152,556,422,493,597,640,238,360,295,700,193,103"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,103,165,226,296,336,378,422,486,542,601,641",
+                        "endColumns": "47,61,60,69,39,41,43,63,55,58,39,50",
+                        "endOffsets": "98,160,221,291,331,373,417,481,537,596,636,687"
+                    }
+                }
+            ]
+        }
+    ]
+}

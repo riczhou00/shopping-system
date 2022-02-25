@@ -6,65 +6,8 @@
             "password": "riczhou"
       }
     ],
-    "Products" : [
-            {
-                "id":1,
-                "name":"iMac 21",
-                "price":"1330.79",
-                "isAvailable":"Available",
-                "imageURL":"https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP759/Imac21inch4k2017.png"
-            },
-            {
-                "id":2,
-                "name":"iPad Pro",
-                "price":"1299.99",
-                "isAvailable":"Available",
-                "imageURL":"https://www.apple.com/v/ipad-pro/ah/images/meta/ipad-pro_specs__bnuyb5pohkly_og.png?202112130312"
-            },
-            {
-                "id":3,
-                "name":"iPhone 11",
-                "price":"579.90",
-                "isAvailable":"Available",
-                "imageURL":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone11-green-select-2019_GEO_EMEA?wid=834&hei=1000&fmt=jpeg&qlt=95&.v=1567021766404"
-            },
-            {
-                "id":4,
-                "name":"iPhone 11 Pro",
-                "price":"599.49",
-                "isAvailable":"Available",
-                "imageURL":"https://www.mytrendyphone.pt/images/iPhone-11-Pro-64GB-Space-Grey-0190199388765-16092019-01-p.jpg"
-            },
-            {
-                "id":5,
-                "name":"iPhone 11 Pro Max",
-                "price":"999.90",
-                "isAvailable":"Available",
-                "imageURL":"https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-11-pro-max-space-gray.png"
-            },
-            {
-                "id":6,
-                "name":"iPhone SE",
-                "price":"480.79",
-                "isAvailable":"Available",
-                "imageURL":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-se-red-select-2020_GEO_EMEA?wid=834&hei=1000&fmt=jpeg&qlt=95&.v=1586574260374"
-            },
-            {
-                "id":7,
-                "name":"MacBook Air",
-                "price":"1255.50",
-                "isAvailable":"Available",
-                "imageURL":"https://www.techinn.com/f/13787/137870845/apple-computador-portatil-macbook-air-13-m1-8gb-256gb-ssd.jpg"
-            },
-            {
-                "id":8,
-                "name":"MacBook Pro 16",
-                "price":"2899.99",
-                "isAvailable":"Available",
-                "imageURL":"https://www.notebookcheck.info/uploads/tx_nbc2/Bildschirmfoto_2021-06-25_um_10.31.16.png"
-            }
-    ],
-    "ProductDetails": [
+    
+    "Products": [
   {
       "id":1,
       "name":"iMac 21",

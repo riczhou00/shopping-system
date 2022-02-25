@@ -1,5 +1,14 @@
 <resources>
-    <string name="app_name">Shopping_cart</string>
-    <string name="textview">TextView</string>
-
+    <string name="app_name">Shopping Cart</string>
+    <string name="ADDCART">Adicionar ao Carrinho</string>
+    <string name="TOTAL">Total</string>
+    <string name="PAYMENT">Pagamento</string>
+    <string name="PRODUCT_ADD">Produto  adicionado</string>
+    <string name="PAYMENT_FINISH">Pagamento Concluido 😍</string>
+    <string name="ERROR">Erro no Username/Palavra-passe</string>
+    <string name="EXISTUSERNAME">Já existe esse username</string>
+    <string name="EMPTY">Faltam campos a ser preenchidos</string>
+    <string name="LOGIN">Entrar</string>
+    <string name="LOGOUT">Sair</string>
+    <string name="REGISTER">Registar utilizador</string>
 </resources>

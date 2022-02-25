@@ -21,9 +21,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.Shopping_cart" >
         <activity
-            android:name="ipbeja.pdm1.shopping_cart.view.ProductDetailsActivity"
-            android:exported="true" />
-        <activity
             android:name="ipbeja.pdm1.shopping_cart.view.MainActivity"
             android:exported="true" >
             <intent-filter>

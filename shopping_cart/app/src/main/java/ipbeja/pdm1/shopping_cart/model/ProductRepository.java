@@ -1,11 +1,14 @@
 package ipbeja.pdm1.shopping_cart.model;
 
 import android.content.Context;
+import android.widget.Toast;
 
 import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
 
 import java.util.List;
 
+import ipbeja.pdm1.shopping_cart.R;
 import ipbeja.pdm1.shopping_cart.model.database.AppDatabase;
 import ipbeja.pdm1.shopping_cart.model.database.ProductDao;
 import ipbeja.pdm1.shopping_cart.model.remote.DataSource;
@@ -17,6 +20,7 @@ import retrofit2.Response;
 public class ProductRepository {
 
     private ProductDao productDao;
+    private User user;
 
     public ProductRepository(Context context) {
         this.productDao = AppDatabase.getInstance(context).getProductDao();
@@ -78,5 +82,81 @@ public class ProductRepository {
 
             }
         });
+    }
+
+    public LiveData<User> getUser(Context context, String username, String password) {
+        MutableLiveData<User> userMutableLiveData = new MutableLiveData<>();
+        ProductService service = DataSource.getProductService();
+        service.getUsers(username,password).enqueue(new Callback<List<User>>() {
+            @Override
+            public void onResponse(Call<List<User>> call, Response<List<User>> response) {
+                if (response.isSuccessful()) {
+                    if (response.body().size() > 0) {
+                        userMutableLiveData.postValue(response.body().get(0));
+                    }else {
+                        Toast toast = Toast.makeText(context, R.string.ERROR,Toast.LENGTH_SHORT);
+                        toast.show();
+                        userMutableLiveData.postValue(null);
+                    }
+                }else {
+                    userMutableLiveData.postValue(null);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<User>> call, Throwable t) {
+                t.printStackTrace();
+                userMutableLiveData.postValue(null);
+            }
+        });
+
+        return userMutableLiveData;
+    }
+
+    public User isUserExist(String stringUsername, String stringPassword) {
+        ProductService service = DataSource.getProductService();
+        service.getUserByUsername(stringUsername).enqueue(new Callback<List<User>>() {
+            @Override
+            public void onResponse(Call<List<User>> call, Response<List<User>> response) {
+                if (response.isSuccessful()){
+                    if (response.body().size() > 0) {
+                        user = null;
+                    }else {
+                        User thisUser = User.newUser(stringUsername,stringPassword);
+                        user = thisUser;
+                    }
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<User>> call, Throwable t) {
+                user = null;
+            }
+        });
+
+        return user;
+    }
+
+    public LiveData<User> createUser(User user) {
+        MutableLiveData<User> userMutableLiveData = new MutableLiveData<>();
+        ProductService service = DataSource.getProductService();
+        service.newUser(user).enqueue(new Callback<User>() {
+            @Override
+            public void onResponse(Call<User> call, Response<User> response) {
+                if (response.isSuccessful()){
+                    userMutableLiveData.postValue(response.body());
+                }else {
+                    userMutableLiveData.postValue(null);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<User> call, Throwable t) {
+                t.printStackTrace();
+                userMutableLiveData.postValue(null);
+            }
+        });
+
+        return userMutableLiveData;
     }
 }

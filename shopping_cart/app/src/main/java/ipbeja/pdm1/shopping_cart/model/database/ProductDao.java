@@ -19,6 +19,9 @@ public interface ProductDao {
     @Query("SELECT * FROM PRODUCT WHERE id = :idProduct")
     LiveData<Product> getProduct(long idProduct);
 
+    @Query("SELECT * FROM PRODUCT WHERE id = :idProduct")
+    Product getProductP(long idProduct);
+
     @Update
     void update(List<Product> productList);
 

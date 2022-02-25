@@ -4,12 +4,48 @@
         "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_product_details.xml.flat",
-        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\layout\\activity_product_details.xml"
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_background_image_one_signin.png.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\drawable-v24\\background_image_one_signin.png"
     },
     {
-        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_baseline_delete_24.xml.flat",
-        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\drawable-v24\\ic_baseline_delete_24.xml"
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\layout_product_details_fragment.xml.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\layout\\product_details_fragment.xml"
+    },
+    {
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_supervised_user_circle_24.xml.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\drawable\\ic_baseline_supervised_user_circle_24.xml"
+    },
+    {
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\layout_login_fragment.xml.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\layout\\login_fragment.xml"
+    },
+    {
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_background_item.jpg.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\drawable-v24\\background_item.jpg"
+    },
+    {
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cart.xml.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\layout_cart_fragment.xml.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\layout\\cart_fragment.xml"
     },
     {
         "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -24,16 +60,8 @@
         "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_iphone11.jpeg.flat",
-        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\drawable-v24\\iphone11.jpeg"
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\layout_main_fragment.xml.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\layout\\main_fragment.xml"
     },
     {
         "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -42,10 +70,6 @@
     {
         "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
@@ -68,15 +92,15 @@
         "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_badge_shape.xml.flat",
-        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\drawable-v24\\badge_shape.xml"
-    },
-    {
         "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_button.xml.flat",
+        "source": "Z:\\github\\ShoppingCart\\shopping-system\\shopping_cart\\app\\src\\main\\res\\drawable\\custom_button.xml"
     }
 ]

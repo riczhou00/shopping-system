@@ -21,9 +21,11 @@ import ipbeja.pdm1.shopping_cart.model.Product;
 public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHolder>{
     private final Context context;
     private List<Product> productList = new ArrayList<>();
+    private OnProductsClickedListener listener;
 
-    public ProductsAdapter(Context context) {
+    public ProductsAdapter(Context context, OnProductsClickedListener listener) {
         this.context = context;
+        this.listener = listener;
     }
 
     @NonNull
@@ -44,7 +46,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
         holder.root.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ProductDetailsActivity.startActivity(context, product.getId());
+                listener.onProductsClicked(product.getId());
             }
         });
     }
@@ -74,6 +76,9 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
             this.txtIsAvailable = this.root.findViewById(R.id.txtIsAvailable);
             this.imageView = this.root.findViewById(R.id.imageView);
         }
+    }
+    public interface OnProductsClickedListener {
+        void onProductsClicked(long id);
     }
 
 }

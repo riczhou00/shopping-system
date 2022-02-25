@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shopping Cart</string>
+    <string name="ADDCART">Add to Cart</string>
+    <string name="TOTAL">Total</string>
+    <string name="PAYMENT">Payment</string>
+    <string name="PRODUCT_ADD">"Product added"</string>
+    <string name="PAYMENT_FINISH">Payment  Finished 😍</string>
+    <string name="ERROR">Error in Username/Password</string>
+    <string name="EXISTUSERNAME">Already exist this username</string>
+    <string name="EMPTY">Missing fields to be filled</string>
+    <string name="LOGIN">Login</string>
+    <string name="LOGOUT">Logout</string>
+    <string name="REGISTER">Register successfully</string>
+</resources>

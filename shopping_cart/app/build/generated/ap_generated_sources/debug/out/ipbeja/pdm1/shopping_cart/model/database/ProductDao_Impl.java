@@ -259,6 +259,62 @@ public final class ProductDao_Impl implements ProductDao {
     });
   }
 
+  @Override
+  public Product getProductP(final long idProduct) {
+    final String _sql = "SELECT * FROM PRODUCT WHERE id = ?";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
+    int _argIndex = 1;
+    _statement.bindLong(_argIndex, idProduct);
+    __db.assertNotSuspendingTransaction();
+    final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+    try {
+      final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+      final int _cursorIndexOfName = CursorUtil.getColumnIndexOrThrow(_cursor, "name");
+      final int _cursorIndexOfPrice = CursorUtil.getColumnIndexOrThrow(_cursor, "price");
+      final int _cursorIndexOfIsAvailable = CursorUtil.getColumnIndexOrThrow(_cursor, "isAvailable");
+      final int _cursorIndexOfImageURL = CursorUtil.getColumnIndexOrThrow(_cursor, "imageURL");
+      final int _cursorIndexOfDescription = CursorUtil.getColumnIndexOrThrow(_cursor, "description");
+      final Product _result;
+      if(_cursor.moveToFirst()) {
+        final long _tmpId;
+        _tmpId = _cursor.getLong(_cursorIndexOfId);
+        final String _tmpName;
+        if (_cursor.isNull(_cursorIndexOfName)) {
+          _tmpName = null;
+        } else {
+          _tmpName = _cursor.getString(_cursorIndexOfName);
+        }
+        final float _tmpPrice;
+        _tmpPrice = _cursor.getFloat(_cursorIndexOfPrice);
+        final String _tmpIsAvailable;
+        if (_cursor.isNull(_cursorIndexOfIsAvailable)) {
+          _tmpIsAvailable = null;
+        } else {
+          _tmpIsAvailable = _cursor.getString(_cursorIndexOfIsAvailable);
+        }
+        final String _tmpImageURL;
+        if (_cursor.isNull(_cursorIndexOfImageURL)) {
+          _tmpImageURL = null;
+        } else {
+          _tmpImageURL = _cursor.getString(_cursorIndexOfImageURL);
+        }
+        final String _tmpDescription;
+        if (_cursor.isNull(_cursorIndexOfDescription)) {
+          _tmpDescription = null;
+        } else {
+          _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+        }
+        _result = new Product(_tmpId,_tmpName,_tmpPrice,_tmpIsAvailable,_tmpImageURL,_tmpDescription);
+      } else {
+        _result = null;
+      }
+      return _result;
+    } finally {
+      _cursor.close();
+      _statement.release();
+    }
+  }
+
   public static List<Class<?>> getRequiredConverters() {
     return Collections.emptyList();
   }
